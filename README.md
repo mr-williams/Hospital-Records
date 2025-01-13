@@ -11,4 +11,4 @@ The process does have various parts which I would mention and explain:
 
 `Health_trans_silver`: This file transforms the data performing various joins and further cleaning with duplicates. This is also saved in the delta format.
 
-`Health_agg_gold`: This file contains the scripts that perform aggregations for various business requirements which would allow other data departments and stakeholders to perform further analysis such as Insurance costs, Types of Health occurences e.t.c.
+`Health_agg_gold`: This file contains the scripts that perform aggregations for various business requirements which would allow other data departments and stakeholders to perform further analysis such as Insurance costs, Types of Health occurences e.t.c
