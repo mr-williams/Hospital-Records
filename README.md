@@ -1,9 +1,12 @@
 # HEALTHCARE PROJECT:
 
-This is my first data engineering project which shows the process of taking records of patients and various costs and using them for insights.
+This is my first data engineering project which shows the process of taking records of patients, the various costs, how much their insrance covers (if they have insurance)  and using them for insights.
 The process does have various parts which I would mention and explain:
 
-`The DE model`: The data Engineering model showcases the diagram explaining the process from ingesting the raw data through to the finished aggregates used for data analysis
+`The DE model`: The data Engineering model showcases the diagram explaining the process from ingesting the raw data through to the finished aggregates used for data analysis.
+
+![image](https://github.com/user-attachments/assets/c9dd71c5-63c5-47d0-bee9-a271326ef57d)
+
 
 `Medallion_Architecture`: This folder contains a further 4 folders, Landing zone, Bronze, Silver, Gold. These represent the data at various levels of the process. Landing zone being where the raw data is from the sources. Bronze being the data converted to a delta table format and cleaned. Silver having the data joined and further cleaned for duplicates. Gold being the final stage for the aggregates.
 
