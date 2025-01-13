@@ -15,3 +15,13 @@ The process does have various parts which I would mention and explain:
 `Health_trans_silver`: This file transforms the data performing various joins and further cleaning with duplicates. This is also saved in the delta format.
 
 `Health_agg_gold`: This file contains the scripts that perform aggregations for various business requirements which would allow other data departments and stakeholders to perform further analysis such as Insurance costs, Types of Health occurences e.t.c.
+
+The depencies required to run this project include:
+- Python 3.11.0
+- Pyspark 3.5.4
+- Delta-spark 3.3.0
+- Java 11(jdk 11)
+- Scala 2.12.8
+
+The orchestration which is done by Apache Airflow required a Docker container to run the airflow webserver.
+A seperate DAG folder is required to run the script in airflow.
