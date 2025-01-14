@@ -22,6 +22,8 @@ The depencies required to run this project include:
 - Delta-spark 3.3.0
 - Java 11(jdk 11)
 - Scala 2.12.8
+- Apache Airflow
 
-The orchestration which is done by Apache Airflow required a Docker container to run the airflow webserver.
+Apart from Java 11 and Apache Airflow, all these dependencies can be installed using (pip install) in the cmd or terminal.
+The orchestration which is done by Apache Airflow requires a Docker container to run the airflow webserver.
 A seperate DAG folder is required to run the script in airflow.
