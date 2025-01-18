@@ -25,5 +25,5 @@ The depencies required to run this project include:
 - Apache Airflow
 
 Apart from Java 11 and Apache Airflow, all these dependencies can be installed using (pip install) in the cmd or terminal.
-The orchestration which is done by Apache Airflow requires a Docker container to run the airflow webserver.
-A seperate DAG folder is required to run the script in airflow.
+
+The orchestration which is done by Apache Airflow can be run in a Docker container. Which requires its own set of adjustments and dependencies to create a suitable working environment for the project.
