@@ -27,4 +27,4 @@ The depencies required to run this project include:
 Apart from Java 11 and Apache Airflow, all these dependencies can be installed using (pip install) in the cmd or terminal.
 
 The orchestration which is done by Apache Airflow requires a Docker container to run the airflow webserver.
-To build the environment required to run airflow in the docker container required using Astro CLI which is an open-source command-line interface (CLI) for data orchestration. It's used to build, test, and run Airflow DAGs and tasks. This required installing its .exe file from the site and building the container through its astro_dev command.
+To build the environment required to run airflow in the docker container required using Astro CLI which is an open-source command-line interface (CLI) for data orchestration. It's used to build, test, and run Airflow DAGs and tasks. This required installing its .exe file from the site and building the container through its (astro_dev )command.
