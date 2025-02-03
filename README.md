@@ -5,7 +5,8 @@ The process does have various parts which I would mention and explain:
 
 `The DE model`: The data Engineering model showcases the diagram explaining the process from ingesting the raw data through to the finished aggregates used for data analysis.
 
-![image](https://github.com/user-attachments/assets/286d326f-9b42-48a2-b0d5-3568191dec42)
+![image](https://github.com/user-attachments/assets/3a17cc94-5f2a-40ce-b852-3e4293b17006)
+
 
 
 `Health_data(Medallion Architecture)`: This folder contains a further 4 folders, Landing zone, Bronze, Silver, Gold. These represent the data at various levels of the process. Landing zone being where the raw data from the sources is stored without any adjustments made. Bronze being where the data is converted to a delta table format and cleaned. Silver having the necessary data joined and further cleaned for duplicates. Gold being the final stage for the aggregates.
