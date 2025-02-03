@@ -1,6 +1,6 @@
 # HEALTHCARE PROJECT:
 
-This is my first data engineering project which shows the process of taking records of patients, the various costs, how much their insrance covers (if they have insurance)  and using them for insights.
+This is my first data engineering project which shows the process of taking records of patients, the various costs, how much their insrance covers (if they have insurance)  and using them for insights. Here is the link to the dataset from [kaggle](https://www.kaggle.com/datasets/ahmedezzatibrahem/hospital-patient-records/data).
 The process does have various parts which I would mention and explain:
 
 `The DE model`: The data Engineering model showcases the diagram explaining the process from ingesting the raw data through to the finished aggregates used for data analysis.
