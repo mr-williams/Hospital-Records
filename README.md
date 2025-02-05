@@ -28,6 +28,7 @@ Apart from Java 11 and Apache Airflow, all these dependencies can be installed u
 
 The orchestration which is done by Apache Airflow requires a Docker container to run the airflow webserver.
 To build the environment required to run airflow in the docker container required using Astro CLI which is an open-source command-line interface (CLI) for data orchestration. It's used to build, test, and run Airflow DAGs and tasks. This required installing its .exe file from the site and building the container through its (astro_dev )command.
+The link to the .exe file is [here](https://github.com/astronomer/astro-cli/releases). This takes you to the releases page on Github where there are various version of the file. My version is 1.29.0.
 
 There is an airflow_spark folder which contains:
 - The raw data for conversion.
