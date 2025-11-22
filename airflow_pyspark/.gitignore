@@ -10,4 +10,5 @@ webserver_config.py
 airflow.cfg
 airflow.db
 include/health_data/
-
+airflow_pyspark/README.md
+airflow_pyspark/paackages.txt
