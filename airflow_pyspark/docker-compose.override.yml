@@ -48,5 +48,12 @@ services:
     networks:
       - airflow
 
+  postgres:
+    ports:
+      - "5433:5432"
+
+
 volumes:
   spark-data:  # Define the volume correctly here
+
+
