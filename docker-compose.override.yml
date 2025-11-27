@@ -1,4 +1,4 @@
-version: '3.1'
+version: '3.8'
 
 services:
   spark-master:
@@ -10,15 +10,13 @@ services:
       - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
       - SPARK_SSL_ENABLED=no
       - SPARK_MASTER_WEBUI_PORT=8081
-      - SPARK_KERBEROS_PRINCIPAL =
-      - SPARK_KERBEROS_KEYTAB = 
-      - KRB5+CONFIG = 
+
     ports:
       - "8081:8081"
       - "7077:7077"
     volumes:
       - spark-data:/bitnami
-      - ./include:/usr/local/airflow/include
+      - ./include:/opt/shared-code
       - ./apps:/opt/spark-apps
       - ./data:/opt/spark-data
     networks:
@@ -35,12 +33,11 @@ services:
       - SPARK_RPC_ENCRYPTION_ENABLED=no
       - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
       - SPARK_SSL_ENABLED=no
-      - SPARK_KERBEROS_PRINCIPAL =
-      - SPARK_KERBEROS_KEYTAB = 
-      - KRB5+CONFIG = 
+
     volumes:
       - spark-data:/bitnami
       - ./include:/usr/local/airflow/include
+      - ./include:/opt/shared-code
       - ./apps:/opt/spark-apps
       - ./data:/opt/spark-data
     depends_on:
@@ -54,6 +51,7 @@ services:
 
 
 volumes:
-  spark-data:  # Define the volume correctly here
+  spark-data:  
+
 
 

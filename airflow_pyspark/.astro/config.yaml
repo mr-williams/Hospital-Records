@@ -1,6 +1,0 @@
-postgres:
-    port: "5432"
-project:
-    name: airflow-pyspark
-webserver:
-    port: "8080"
